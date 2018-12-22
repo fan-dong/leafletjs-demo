@@ -1,0 +1,59 @@
+*
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+li 
+    list-style: none;
+
+clearfix()
+  &::after 
+    content ""
+    display block
+    height 0
+    clear both
+    visibility hidden
+fl()
+    float left
+fr()
+    float right
+//自定义滚动条样式
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+fl()
+    float left
+
+fr()
+    float right
+
+clearfix()
+  display: inline-block
+  &:after
+    display: block
+    content: "."
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+
+
+blues=red
